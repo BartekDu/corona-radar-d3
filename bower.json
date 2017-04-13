@@ -1,5 +1,6 @@
 {
   "name": "corona-radar",
+  "version": "0.0.1",
   "main": "corona-radar.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
