@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>corona-radar demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../corona-radar.html">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+	
+	
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic corona-radar demo</h3>
+      <demo-snippet>
+        <template>
+          <corona-radar url="https://gist.githubusercontent.com/BartekDu/9e351bed0e9a837e247a1e07eae12559/raw/4f0ba9b69bb2888ed3bd925e26fea19a0287885b/data.json"></corona-radar>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
