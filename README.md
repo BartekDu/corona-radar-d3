@@ -1,3 +1,24 @@
+this version loads nested data from data.json:
+
+index.html
+
+//Load the data and Call function to draw the Radar chart
+d3.json("data.json", function(error, data){
+	RadarChart(".radarChart", data, radarChartOptions);
+});
+then, it converts the nested data into an array of values arrays:
+
+radarChart.js
+
+// convert the nested data passed in
+// into an array of values arrays
+data = data.map(function(d) { return d.values })
+an iteration on the bl.ock Radar Chart Redesign created by @nbremer
+
+forked from micahstubbs's block: radar chart for nested data
+
+https://gist.github.com/micahstubbs/44bb05aab218a40a4c12
+
 # \<corona-radar\>
 
 
